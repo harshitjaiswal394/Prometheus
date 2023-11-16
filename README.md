@@ -49,7 +49,7 @@ SELECT count(build_number) FROM ( SELECT * FROM  "jenkins_data" WHERE ("project_
 ```
 docker run -d --name=grafana -p 3000:3000 -v /home/sndee/grafana.ini:/etc/grafana/grafana.ini grafana/grafana:8.5.5
 ```
-#### Final Dashboard with USEFUL JENKINS METRICS
+####  4. Final Dashboard ----Easily monitor your deployment of Jenkins metrics with Grafana and Prometheus
 
 <img width="960" alt="grafana monitor-jenkins" src="https://github.com/harshitjaiswal394/Prometheus/assets/116247746/01c820ba-2ceb-4419-8544-a96504b5a158">
 
